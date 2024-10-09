@@ -51,5 +51,3 @@ avion.voler()  # Affiche : L'avion utilise ses moteurs pour voler.
 - Elles permettent une meilleure **séparation des responsabilités** et facilitent la gestion de code large et complexe.
 
 Bien que Python soit un langage dynamique et que l'usage d'interfaces ne soit pas aussi strict que dans d'autres langages, elles sont très utiles pour structurer le code proprement et imposer des **règles** de design.
-
-Cela te semble clair ?

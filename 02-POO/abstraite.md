@@ -1,4 +1,4 @@
-Avec plaisir ! Définir une **classe abstraite** en Python se fait de manière similaire à une interface, mais avec une différence majeure : une classe abstraite peut contenir à la fois des **méthodes abstraites** (sans implémentation) et des **méthodes concrètes** (avec une implémentation). Voici comment cela fonctionne.
+Définir une **classe abstraite** en Python se fait de manière similaire à une interface, mais avec une différence majeure : une classe abstraite peut contenir à la fois des **méthodes abstraites** (sans implémentation) et des **méthodes concrètes** (avec une implémentation). Voici comment cela fonctionne.
 
 ### Exemple de classe abstraite en Python
 
@@ -64,5 +64,3 @@ chat.faire_du_bruit()  # Affiche : Le chat miaule.
 - Les sous-classes doivent **obligatoirement** implémenter toutes les méthodes abstraites, mais elles peuvent choisir d'utiliser ou de surcharger les méthodes concrètes.
 
 Cela te donne une base pour structurer ton code quand certaines parties du comportement sont communes, et d'autres sont spécifiques à chaque sous-classe !
-
-Est-ce que cela t’aide à comprendre les classes abstraites ?
