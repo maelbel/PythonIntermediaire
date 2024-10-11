@@ -17,7 +17,7 @@ class TestApiManager(unittest.TestCase):
 
     @patch("requests.get")
     def test_get_user_data_success(self, mock_get):
-        mock_response = unittest.mock.Mock()
+        mock_response = mock_get.return_value
         mock_response.status_code = 200
         mock_response.json.return_value = {'id': 1, 'name': 'John Doe'}
         mock_get.return_value = mock_response
@@ -28,7 +28,7 @@ class TestApiManager(unittest.TestCase):
 
     @patch('requests.get') 
     def test_get_user_data_failure(self, mock_get):
-        mock_response = unittest.mock.Mock()
+        mock_response = mock_get.return_value
         mock_response.status_code = 404
         mock_get.return_value = mock_response
 
